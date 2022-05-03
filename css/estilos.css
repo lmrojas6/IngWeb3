@@ -1,0 +1,162 @@
+/*Encerrar los selectores*/
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+body{
+	background: #f3f3f3;
+	font-family: sans-serif;
+}
+
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main{
+	background: #ddd;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.cabeceraPrincipal{
+	background-color: #ffffff;
+}
+
+.cabeceraPrincipal h1{
+	color: #AC99D4;
+	padding: 10px, 40px;
+	text-shadow: #000 3px 2px 2px;
+}
+
+.menuPrincipal{
+	background-color: #fcc27e;
+	text-align: center;
+	padding-top: 10px;
+	height: 30px;
+}
+
+.menuPrincipal a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #3a3a3a;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menuPrincipal a:hover{
+	background-color: #edd502;
+	color: #fff;
+	transition: 1s;
+}
+
+.sliderPrincipal img{
+	width: 100%;
+}
+
+.menu{
+	text-align: center;
+}
+
+.h2Home{
+	text-align: center;
+	padding: 2em 0;
+}
+
+.menuPlato{
+	width: 33%;
+	background: #ededed;
+	border: 1px solid #bbb6b6;
+	box-sizing: border-box;
+	height: 200px;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 09x 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menuPlato img{
+	width: 100%;
+
+}
+
+.menuPlato h3{
+	color: #db6900;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.menuPlato p{
+	padding: 0.1em 1em;
+	font-size: 13px;
+	color: #494848;
+}
+
+.segundas{
+	text-align: center;
+}
+
+.chefs{
+	width: 33%;
+	background: #ededed;
+	border: 1px solid #bbb6b6;
+	box-sizing: border-box;
+	height: 200px;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 09x 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;	
+}
+
+.chefs img{
+	float: left;
+	border: black 3px solid;
+	border-radius: 100%;
+}
+
+.chefs h3{
+	color: #db6900;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.chefs button{
+	background-color: #07738a;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+
+.piePagina{
+	background-color: #1d1d1d;
+	color: # c1d0d4;
+
+}
+
+.menuPlato button{
+	background-color: #07738a;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+
+.piePagina h5{
+	text-align: center;
+	padding: 2em 0;
+}
+
+@media only screen and (max-width: 800px){
+	body{
+		background-color: blue;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.menuPlato{
+		width: 90%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+}
